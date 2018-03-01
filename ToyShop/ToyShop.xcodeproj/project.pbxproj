@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8E78CC42047FAEC00F458D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CC32047FAEC00F458D8 /* AppDelegate.m */; };
+		F8E78CC72047FAEC00F458D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CC62047FAEC00F458D8 /* ViewController.m */; };
+		F8E78CCC2047FAEC00F458D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E78CCB2047FAEC00F458D8 /* Assets.xcassets */; };
+		F8E78CCF2047FAEC00F458D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E78CCD2047FAEC00F458D8 /* LaunchScreen.storyboard */; };
+		F8E78CD22047FAEC00F458D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CD12047FAEC00F458D8 /* main.m */; };
+		F8E78CDC2047FAEC00F458D8 /* ToyShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CDB2047FAEC00F458D8 /* ToyShopTests.m */; };
+		F8E78CE72047FAED00F458D8 /* ToyShopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CE62047FAED00F458D8 /* ToyShopUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8E78CD82047FAEC00F458D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8E78CB72047FAEC00F458D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8E78CBE2047FAEC00F458D8;
+			remoteInfo = ToyShop;
+		};
+		F8E78CE32047FAED00F458D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8E78CB72047FAEC00F458D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8E78CBE2047FAEC00F458D8;
+			remoteInfo = ToyShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8E78CBF2047FAEC00F458D8 /* ToyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E78CC22047FAEC00F458D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8E78CC32047FAEC00F458D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8E78CC52047FAEC00F458D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8E78CC62047FAEC00F458D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8E78CCB2047FAEC00F458D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8E78CCE2047FAEC00F458D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8E78CD02047FAEC00F458D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E78CD12047FAEC00F458D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8E78CD72047FAEC00F458D8 /* ToyShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E78CDB2047FAEC00F458D8 /* ToyShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToyShopTests.m; sourceTree = "<group>"; };
+		F8E78CDD2047FAEC00F458D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E78CE22047FAED00F458D8 /* ToyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E78CE62047FAED00F458D8 /* ToyShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToyShopUITests.m; sourceTree = "<group>"; };
+		F8E78CE82047FAED00F458D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8E78CBC2047FAEC00F458D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E78CD42047FAEC00F458D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E78CDF2047FAED00F458D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8E78CB62047FAEC00F458D8 = {
+			isa = PBXGroup;
+			children = (
+				F8E78CC12047FAEC00F458D8 /* ToyShop */,
+				F8E78CDA2047FAEC00F458D8 /* ToyShopTests */,
+				F8E78CE52047FAED00F458D8 /* ToyShopUITests */,
+				F8E78CC02047FAEC00F458D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8E78CC02047FAEC00F458D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78CBF2047FAEC00F458D8 /* ToyShop.app */,
+				F8E78CD72047FAEC00F458D8 /* ToyShopTests.xctest */,
+				F8E78CE22047FAED00F458D8 /* ToyShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E78CC12047FAEC00F458D8 /* ToyShop */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78CF62047FB1800F458D8 /* SupprotingFile */,
+				F8E78CF42047FAF300F458D8 /* Main */,
+			);
+			path = ToyShop;
+			sourceTree = "<group>";
+		};
+		F8E78CDA2047FAEC00F458D8 /* ToyShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78CDB2047FAEC00F458D8 /* ToyShopTests.m */,
+				F8E78CDD2047FAEC00F458D8 /* Info.plist */,
+			);
+			path = ToyShopTests;
+			sourceTree = "<group>";
+		};
+		F8E78CE52047FAED00F458D8 /* ToyShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78CE62047FAED00F458D8 /* ToyShopUITests.m */,
+				F8E78CE82047FAED00F458D8 /* Info.plist */,
+			);
+			path = ToyShopUITests;
+			sourceTree = "<group>";
+		};
+		F8E78CF42047FAF300F458D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78CC22047FAEC00F458D8 /* AppDelegate.h */,
+				F8E78CC32047FAEC00F458D8 /* AppDelegate.m */,
+				F8E78CC52047FAEC00F458D8 /* ViewController.h */,
+				F8E78CC62047FAEC00F458D8 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F8E78CF62047FB1800F458D8 /* SupprotingFile */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78CCB2047FAEC00F458D8 /* Assets.xcassets */,
+				F8E78CCD2047FAEC00F458D8 /* LaunchScreen.storyboard */,
+				F8E78CD02047FAEC00F458D8 /* Info.plist */,
+				F8E78CD12047FAEC00F458D8 /* main.m */,
+			);
+			path = SupprotingFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8E78CBE2047FAEC00F458D8 /* ToyShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E78CEB2047FAED00F458D8 /* Build configuration list for PBXNativeTarget "ToyShop" */;
+			buildPhases = (
+				F8E78CBB2047FAEC00F458D8 /* Sources */,
+				F8E78CBC2047FAEC00F458D8 /* Frameworks */,
+				F8E78CBD2047FAEC00F458D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToyShop;
+			productName = ToyShop;
+			productReference = F8E78CBF2047FAEC00F458D8 /* ToyShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8E78CD62047FAEC00F458D8 /* ToyShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E78CEE2047FAED00F458D8 /* Build configuration list for PBXNativeTarget "ToyShopTests" */;
+			buildPhases = (
+				F8E78CD32047FAEC00F458D8 /* Sources */,
+				F8E78CD42047FAEC00F458D8 /* Frameworks */,
+				F8E78CD52047FAEC00F458D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8E78CD92047FAEC00F458D8 /* PBXTargetDependency */,
+			);
+			name = ToyShopTests;
+			productName = ToyShopTests;
+			productReference = F8E78CD72047FAEC00F458D8 /* ToyShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8E78CE12047FAED00F458D8 /* ToyShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E78CF12047FAED00F458D8 /* Build configuration list for PBXNativeTarget "ToyShopUITests" */;
+			buildPhases = (
+				F8E78CDE2047FAED00F458D8 /* Sources */,
+				F8E78CDF2047FAED00F458D8 /* Frameworks */,
+				F8E78CE02047FAED00F458D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8E78CE42047FAED00F458D8 /* PBXTargetDependency */,
+			);
+			name = ToyShopUITests;
+			productName = ToyShopUITests;
+			productReference = F8E78CE22047FAED00F458D8 /* ToyShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8E78CB72047FAEC00F458D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "周恩慧";
+				TargetAttributes = {
+					F8E78CBE2047FAEC00F458D8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F8E78CD62047FAEC00F458D8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8E78CBE2047FAEC00F458D8;
+					};
+					F8E78CE12047FAED00F458D8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8E78CBE2047FAEC00F458D8;
+					};
+				};
+			};
+			buildConfigurationList = F8E78CBA2047FAEC00F458D8 /* Build configuration list for PBXProject "ToyShop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8E78CB62047FAEC00F458D8;
+			productRefGroup = F8E78CC02047FAEC00F458D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8E78CBE2047FAEC00F458D8 /* ToyShop */,
+				F8E78CD62047FAEC00F458D8 /* ToyShopTests */,
+				F8E78CE12047FAED00F458D8 /* ToyShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8E78CBD2047FAEC00F458D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E78CCF2047FAEC00F458D8 /* LaunchScreen.storyboard in Resources */,
+				F8E78CCC2047FAEC00F458D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E78CD52047FAEC00F458D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E78CE02047FAED00F458D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8E78CBB2047FAEC00F458D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E78CC72047FAEC00F458D8 /* ViewController.m in Sources */,
+				F8E78CD22047FAEC00F458D8 /* main.m in Sources */,
+				F8E78CC42047FAEC00F458D8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E78CD32047FAEC00F458D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E78CDC2047FAEC00F458D8 /* ToyShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E78CDE2047FAED00F458D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E78CE72047FAED00F458D8 /* ToyShopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8E78CD92047FAEC00F458D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8E78CBE2047FAEC00F458D8 /* ToyShop */;
+			targetProxy = F8E78CD82047FAEC00F458D8 /* PBXContainerItemProxy */;
+		};
+		F8E78CE42047FAED00F458D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8E78CBE2047FAEC00F458D8 /* ToyShop */;
+			targetProxy = F8E78CE32047FAED00F458D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8E78CCD2047FAEC00F458D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8E78CCE2047FAEC00F458D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8E78CE92047FAED00F458D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8E78CEA2047FAED00F458D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8E78CEC2047FAED00F458D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L44JPHQ5WZ;
+				INFOPLIST_FILE = ToyShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = toyshop.ToyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8E78CED2047FAED00F458D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L44JPHQ5WZ;
+				INFOPLIST_FILE = ToyShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = toyshop.ToyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8E78CEF2047FAED00F458D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L44JPHQ5WZ;
+				INFOPLIST_FILE = ToyShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = toyshop.ToyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToyShop.app/ToyShop";
+			};
+			name = Debug;
+		};
+		F8E78CF02047FAED00F458D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L44JPHQ5WZ;
+				INFOPLIST_FILE = ToyShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = toyshop.ToyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToyShop.app/ToyShop";
+			};
+			name = Release;
+		};
+		F8E78CF22047FAED00F458D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L44JPHQ5WZ;
+				INFOPLIST_FILE = ToyShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = toyshop.ToyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToyShop;
+			};
+			name = Debug;
+		};
+		F8E78CF32047FAED00F458D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L44JPHQ5WZ;
+				INFOPLIST_FILE = ToyShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = toyshop.ToyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToyShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8E78CBA2047FAEC00F458D8 /* Build configuration list for PBXProject "ToyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E78CE92047FAED00F458D8 /* Debug */,
+				F8E78CEA2047FAED00F458D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E78CEB2047FAED00F458D8 /* Build configuration list for PBXNativeTarget "ToyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E78CEC2047FAED00F458D8 /* Debug */,
+				F8E78CED2047FAED00F458D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E78CEE2047FAED00F458D8 /* Build configuration list for PBXNativeTarget "ToyShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E78CEF2047FAED00F458D8 /* Debug */,
+				F8E78CF02047FAED00F458D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E78CF12047FAED00F458D8 /* Build configuration list for PBXNativeTarget "ToyShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E78CF22047FAED00F458D8 /* Debug */,
+				F8E78CF32047FAED00F458D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8E78CB72047FAEC00F458D8 /* Project object */;
+}
