@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CF59BE8F9568FE85F661AC1 /* libPods-ToyShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB35CDC7B93B37D271527C5E /* libPods-ToyShop.a */; };
 		F8E78CC42047FAEC00F458D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CC32047FAEC00F458D8 /* AppDelegate.m */; };
 		F8E78CC72047FAEC00F458D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CC62047FAEC00F458D8 /* ViewController.m */; };
 		F8E78CCC2047FAEC00F458D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E78CCB2047FAEC00F458D8 /* Assets.xcassets */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BC426B9D96EFFE67FC7244C /* Pods-ToyShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToyShop/Pods-ToyShop.debug.xcconfig"; sourceTree = "<group>"; };
+		6F8335E0AAB3B23D43EDCA24 /* Pods-ToyShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToyShop/Pods-ToyShop.release.xcconfig"; sourceTree = "<group>"; };
 		F8E78CBF2047FAEC00F458D8 /* ToyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E78CC22047FAEC00F458D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8E78CC32047FAEC00F458D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		F8E78CE22047FAED00F458D8 /* ToyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E78CE62047FAED00F458D8 /* ToyShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToyShopUITests.m; sourceTree = "<group>"; };
 		F8E78CE82047FAED00F458D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB35CDC7B93B37D271527C5E /* libPods-ToyShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToyShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF59BE8F9568FE85F661AC1 /* libPods-ToyShop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C387EB525F4E3FB0A5EE198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB35CDC7B93B37D271527C5E /* libPods-ToyShop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6AC935B8D70563880B85FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BC426B9D96EFFE67FC7244C /* Pods-ToyShop.debug.xcconfig */,
+				6F8335E0AAB3B23D43EDCA24 /* Pods-ToyShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F8E78CB62047FAEC00F458D8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				F8E78CDA2047FAEC00F458D8 /* ToyShopTests */,
 				F8E78CE52047FAED00F458D8 /* ToyShopUITests */,
 				F8E78CC02047FAEC00F458D8 /* Products */,
+				CE6AC935B8D70563880B85FD /* Pods */,
+				8C387EB525F4E3FB0A5EE198 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8E78CEB2047FAED00F458D8 /* Build configuration list for PBXNativeTarget "ToyShop" */;
 			buildPhases = (
+				490E7C65AD2417225BF53CF3 /* [CP] Check Pods Manifest.lock */,
 				F8E78CBB2047FAEC00F458D8 /* Sources */,
 				F8E78CBC2047FAEC00F458D8 /* Frameworks */,
 				F8E78CBD2047FAEC00F458D8 /* Resources */,
+				A833FAA92B4595DCB0B7658F /* [CP] Embed Pods Frameworks */,
+				182332D909099E0C3D1680AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +298,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		182332D909099E0C3D1680AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToyShop/Pods-ToyShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		490E7C65AD2417225BF53CF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A833FAA92B4595DCB0B7658F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToyShop/Pods-ToyShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8E78CBB2047FAEC00F458D8 /* Sources */ = {
@@ -432,6 +507,7 @@
 		};
 		F8E78CEC2047FAED00F458D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC426B9D96EFFE67FC7244C /* Pods-ToyShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +522,7 @@
 		};
 		F8E78CED2047FAED00F458D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8335E0AAB3B23D43EDCA24 /* Pods-ToyShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
