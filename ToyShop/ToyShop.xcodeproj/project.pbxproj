@@ -15,6 +15,14 @@
 		F8E78CD22047FAEC00F458D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CD12047FAEC00F458D8 /* main.m */; };
 		F8E78CDC2047FAEC00F458D8 /* ToyShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CDB2047FAEC00F458D8 /* ToyShopTests.m */; };
 		F8E78CE72047FAED00F458D8 /* ToyShopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78CE62047FAED00F458D8 /* ToyShopUITests.m */; };
+		F8E78D1B2048078300F458D8 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78D0A2048078300F458D8 /* UIColor+HexColor.m */; };
+		F8E78D1C2048078300F458D8 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78D0C2048078300F458D8 /* UIImage+Extension.m */; };
+		F8E78D1D2048078300F458D8 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78D0E2048078300F458D8 /* UIImage+ImageEffects.m */; };
+		F8E78D1E2048078300F458D8 /* UIImage+SolidColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78D102048078300F458D8 /* UIImage+SolidColor.m */; };
+		F8E78D202048078300F458D8 /* UILabel+WEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78D142048078300F458D8 /* UILabel+WEExtension.m */; };
+		F8E78D212048078300F458D8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78D162048078300F458D8 /* UIView+Frame.m */; };
+		F8E78D232048078300F458D8 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78D1A2048078300F458D8 /* UIViewController+Extension.m */; };
+		F8E78D272048079200F458D8 /* NSString+FontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E78D262048079200F458D8 /* NSString+FontSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +60,26 @@
 		F8E78CE22047FAED00F458D8 /* ToyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E78CE62047FAED00F458D8 /* ToyShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToyShopUITests.m; sourceTree = "<group>"; };
 		F8E78CE82047FAED00F458D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E78D012048042C00F458D8 /* ToyShop.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyShop.pch; sourceTree = "<group>"; };
+		F8E78D022048044400F458D8 /* ToyShopHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyShopHeader.h; sourceTree = "<group>"; };
+		F8E78D032048046B00F458D8 /* ToyShopEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyShopEnum.h; sourceTree = "<group>"; };
+		F8E78D04204804A400F458D8 /* ToyShopMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyShopMacro.h; sourceTree = "<group>"; };
+		F8E78D092048078300F458D8 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		F8E78D0A2048078300F458D8 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		F8E78D0B2048078300F458D8 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		F8E78D0C2048078300F458D8 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		F8E78D0D2048078300F458D8 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		F8E78D0E2048078300F458D8 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		F8E78D0F2048078300F458D8 /* UIImage+SolidColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SolidColor.h"; sourceTree = "<group>"; };
+		F8E78D102048078300F458D8 /* UIImage+SolidColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SolidColor.m"; sourceTree = "<group>"; };
+		F8E78D132048078300F458D8 /* UILabel+WEExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WEExtension.h"; sourceTree = "<group>"; };
+		F8E78D142048078300F458D8 /* UILabel+WEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WEExtension.m"; sourceTree = "<group>"; };
+		F8E78D152048078300F458D8 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F8E78D162048078300F458D8 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F8E78D192048078300F458D8 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		F8E78D1A2048078300F458D8 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		F8E78D252048079200F458D8 /* NSString+FontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontSize.h"; sourceTree = "<group>"; };
+		F8E78D262048079200F458D8 /* NSString+FontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontSize.m"; sourceTree = "<group>"; };
 		FB35CDC7B93B37D271527C5E /* libPods-ToyShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToyShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +151,8 @@
 		F8E78CC12047FAEC00F458D8 /* ToyShop */ = {
 			isa = PBXGroup;
 			children = (
+				F8E78D052048074200F458D8 /* Classes */,
+				F8E78D00204803DD00F458D8 /* HeaderFile */,
 				F8E78CF62047FB1800F458D8 /* SupprotingFile */,
 				F8E78CF42047FAF300F458D8 /* Main */,
 			);
@@ -163,10 +193,77 @@
 			children = (
 				F8E78CCB2047FAEC00F458D8 /* Assets.xcassets */,
 				F8E78CCD2047FAEC00F458D8 /* LaunchScreen.storyboard */,
-				F8E78CD02047FAEC00F458D8 /* Info.plist */,
 				F8E78CD12047FAEC00F458D8 /* main.m */,
+				F8E78CD02047FAEC00F458D8 /* Info.plist */,
 			);
 			path = SupprotingFile;
+			sourceTree = "<group>";
+		};
+		F8E78D00204803DD00F458D8 /* HeaderFile */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78D012048042C00F458D8 /* ToyShop.pch */,
+				F8E78D022048044400F458D8 /* ToyShopHeader.h */,
+				F8E78D032048046B00F458D8 /* ToyShopEnum.h */,
+				F8E78D04204804A400F458D8 /* ToyShopMacro.h */,
+			);
+			path = HeaderFile;
+			sourceTree = "<group>";
+		};
+		F8E78D052048074200F458D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78D072048075400F458D8 /* Category */,
+				F8E78D062048074C00F458D8 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F8E78D062048074C00F458D8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F8E78D072048075400F458D8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78D242048079200F458D8 /* Foundation */,
+				F8E78D082048078300F458D8 /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F8E78D082048078300F458D8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78D092048078300F458D8 /* UIColor+HexColor.h */,
+				F8E78D0A2048078300F458D8 /* UIColor+HexColor.m */,
+				F8E78D0B2048078300F458D8 /* UIImage+Extension.h */,
+				F8E78D0C2048078300F458D8 /* UIImage+Extension.m */,
+				F8E78D0D2048078300F458D8 /* UIImage+ImageEffects.h */,
+				F8E78D0E2048078300F458D8 /* UIImage+ImageEffects.m */,
+				F8E78D0F2048078300F458D8 /* UIImage+SolidColor.h */,
+				F8E78D102048078300F458D8 /* UIImage+SolidColor.m */,
+				F8E78D132048078300F458D8 /* UILabel+WEExtension.h */,
+				F8E78D142048078300F458D8 /* UILabel+WEExtension.m */,
+				F8E78D152048078300F458D8 /* UIView+Frame.h */,
+				F8E78D162048078300F458D8 /* UIView+Frame.m */,
+				F8E78D192048078300F458D8 /* UIViewController+Extension.h */,
+				F8E78D1A2048078300F458D8 /* UIViewController+Extension.m */,
+			);
+			name = UIKit;
+			path = ../../../../../../../Desktop/WoTVEducation/WoTVEducation/Classes/Category/UIKit;
+			sourceTree = "<group>";
+		};
+		F8E78D242048079200F458D8 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F8E78D252048079200F458D8 /* NSString+FontSize.h */,
+				F8E78D262048079200F458D8 /* NSString+FontSize.m */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +331,7 @@
 		F8E78CB72047FAEC00F458D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ToyShop;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "周恩慧";
 				TargetAttributes = {
@@ -352,8 +450,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E78D232048078300F458D8 /* UIViewController+Extension.m in Sources */,
+				F8E78D1C2048078300F458D8 /* UIImage+Extension.m in Sources */,
+				F8E78D1E2048078300F458D8 /* UIImage+SolidColor.m in Sources */,
 				F8E78CC72047FAEC00F458D8 /* ViewController.m in Sources */,
+				F8E78D272048079200F458D8 /* NSString+FontSize.m in Sources */,
+				F8E78D1D2048078300F458D8 /* UIImage+ImageEffects.m in Sources */,
+				F8E78D202048078300F458D8 /* UILabel+WEExtension.m in Sources */,
+				F8E78D1B2048078300F458D8 /* UIColor+HexColor.m in Sources */,
 				F8E78CD22047FAEC00F458D8 /* main.m in Sources */,
+				F8E78D212048078300F458D8 /* UIView+Frame.m in Sources */,
 				F8E78CC42047FAEC00F458D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,7 +618,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L44JPHQ5WZ;
-				INFOPLIST_FILE = ToyShop/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ToyShop/HeaderFile/ToyShop.pch";
+				INFOPLIST_FILE = /Users/zhouenhui/Documents/GitHub/ToyShop/ToyShop/ToyShop/SupprotingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = toyshop.ToyShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,7 +634,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L44JPHQ5WZ;
-				INFOPLIST_FILE = ToyShop/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ToyShop/HeaderFile/ToyShop.pch";
+				INFOPLIST_FILE = /Users/zhouenhui/Documents/GitHub/ToyShop/ToyShop/ToyShop/SupprotingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = toyshop.ToyShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
